@@ -1,94 +1,183 @@
-{
-	"quotes": [
-		{
-			"body":"So many people love you. Don't focus on the people who don't",
-			"author":"soyen"
-		},
-		{
-			"body":"Don't let little stupid things break your happiness"
-		},
-		{
-			"body":"You deserve a life full of happinness and positivity"
-		},
-		{
-			"body":"Always be a little kinder than necessary"
-		},
-		{
-			"body":"Be so happy that when others look at you, they become happy too"
-		},
-		{
-			"body":"Decorate your life with hearts that make yours stronger",
-			"author":"Debby Ryan"
-		},
-		{
-			"body":"Being happy with yourself is the best kind of happiness",
-			"author":"faraway"
-		},
-		{
-			"body":"The most important thing is to enjoy your life — to be happy — it’s all that matters.",
-			"author":"Audrey Hepburn"
-		},
-		{
-			"body":"Start your day with positive thoughts"
-		},
-		{
-			"body":"You deserve to laugh. To be happy. To live a joyful life. You deserve to experience moments of pure beauty and bliss.",
-			"author":"Nicole Addison"
-		},
-		{
-			"body":"Life is only as good as your mindset"
-		},
-		{
-			"body":"Choose your happiness over everything"
-		},
-		{
-			"body":"Don't stop until you're proud"
-		},
-		{
-			"body":"Never regret a day in your life: good days give happiness, bad days give experience, worst days give lessons, and best days give memories"
-		},
-		{
-			"body":"Very little is needed to make a happy life"
-		},
-		{
-			"body":"Start each day with a grateful heart"
-		},
-		{
-			"body": "Next time when you think of beautiful things, don't forget to count yourself in"
-		},
-		{
-			"body":"You > The World"
-		},
-		{
-			"body":"Don't fill your head with worries, there won't be room for anything else!"
-		},
-		{
-			"body":"A Positive mind will give you a positive life"
-		},
-		{
-			"body":"Do more of what makes you happy"
-		},
-		{
-			"body":"Be honest with yourself"
-		},
-		{
-			"body":"You don’t deserve a paragraph. You deserve a thousand books written about how amazing you are."
-		},
-		{
-			"body":"The little things? The little moments? They aren’t little.",
-			"author":"John Zabat-Zinn"
-		},
-		{
-			"body":"Let us dance in the sun, wearing wild flowers in our hair...",
-			"author":"Susan Polis Schutz"
-		},
-		{
-			"body":"I want you to be happy because you deserve it. I want you to be happy, because it makes me happy to see you, the way you were meant to be",
-			"author":"Mark Anthony"
-		},
-		{
-			"body":"Walk as if you are kissing the Earth with your feet.",
-			"author":"Thich Nhat Hanh"
-		}
-	]
-}
+[
+	{
+		"body":"So many people love you. Don't focus on the people who don't",
+		"author":"soyen"
+	},
+	{
+		"body":"Don't let little stupid things break your happiness"
+	},
+	{
+		"body":"You deserve a life full of happinness and positivity"
+	},
+	{
+		"body":"Always be a little kinder than necessary"
+	},
+	{
+		"body":"Be so happy that when others look at you, they become happy too"
+	},
+	{
+		"body":"Decorate your life with hearts that make yours stronger",
+		"author":"Debby Ryan"
+	},
+	{
+		"body":"Being happy with yourself is the best kind of happiness",
+		"author":"faraway"
+	},
+	{
+		"body":"The most important thing is to enjoy your life — to be happy — it’s all that matters.",
+		"author":"Audrey Hepburn"
+	},
+	{
+		"body":"Start your day with positive thoughts"
+	},
+	{
+		"body":"You deserve to laugh. To be happy. To live a joyful life. You deserve to experience moments of pure beauty and bliss.",
+		"author":"Nicole Addison"
+	},
+	{
+		"body":"Life is only as good as your mindset"
+	},
+	{
+		"body":"Choose your happiness over everything"
+	},
+	{
+		"body":"Don't stop until you're proud"
+	},
+	{
+		"body":"Never regret a day in your life: good days give happiness, bad days give experience, worst days give lessons, and best days give memories"
+	},
+	{
+		"body":"Very little is needed to make a happy life"
+	},
+	{
+		"body":"Start each day with a grateful heart"
+	},
+	{
+		"body": "Next time when you think of beautiful things, don't forget to count yourself in"
+	},
+	{
+		"body":"You > The World"
+	},
+	{
+		"body":"Don't fill your head with worries, there won't be room for anything else!"
+	},
+	{
+		"body":"A Positive mind will give you a positive life"
+	},
+	{
+		"body":"Do more of what makes you happy"
+	},
+	{
+		"body":"Be honest with yourself"
+	},
+	{
+		"body":"You don’t deserve a paragraph. You deserve a thousand books written about how amazing you are."
+	},
+	{
+		"body":"The little things? The little moments? They aren’t little.",
+		"author":"John Zabat-Zinn"
+	},
+	{
+		"body":"Let us dance in the sun, wearing wild flowers in our hair...",
+		"author":"Susan Polis Schutz"
+	},
+	{
+		"body":"I want you to be happy because you deserve it. I want you to be happy, because it makes me happy to see you, the way you were meant to be",
+		"author":"Mark Anthony"
+	},
+	{
+		"body":"Walk as if you are kissing the Earth with your feet.",
+		"author":"Thich Nhat Hanh"
+	},
+	{
+		"body":"The only thing that stops you is you"
+	},
+	{
+		"body":"A smile does not waste electricity, and generates much more light."
+	},
+	{
+		"body":"There will always be someone who thinks you can't succeed. Make sure that someone isn't you."
+	},
+	{
+		"body":"It's kind of fun to do the impossible",
+		"author":"Walt Disney"
+	},
+	{
+		"body":"All our dreams can come true, if we have the courage to pursue them",
+		"author":"Walt Disney"
+	},
+	{
+		"body":"The more you like yourself, the less you are like anyone else, which makes you unique",
+		"author":"Walt Disney"
+	},
+	{
+		"body":"Doing what you like is freedom. Liking what you do is happiness",
+		"author":"Frank Tyger"
+	},
+	{
+		"body":"Life is full of happiness and tears; be strong and have faith",
+		"author":"Kareena Kapoor Khan"
+	},
+	{
+		"body":"Happiness is not something you postpone for the future; it is something you design for the present",
+		"author":"Jim Rohn"
+	},
+	{
+		"body":"Spend your free time the way you like, not the way you think you’re supposed to.",
+		"author":"Susan Cain"
+	},
+	{
+		"body":"Thoughts are real actions, be careful to choose the best ones.",
+		"author":"São Fernandes"
+	},
+	{
+		"body":"Happiness comes when you find meaning in your life. If that envolve helping other people, even better."
+	},
+	{
+		"body":"We just have one shot at life and you are the person that is gonna decide how the journey will be."
+	},
+	{
+		"body":"Failure is simply the opportunity to begin again, this time more intelligently.",
+		"author":"Henry Ford"
+	},
+	{
+		"body":"You don't know how lovely you are."
+	},
+	{
+		"body":"If you think you can, you will"
+	},
+	{
+		"body":"Life is short. If there was ever a moment to follow your passion and do something that matters to you, that moment is now."
+	},
+	{
+		"body":"Metanl health first, everything else will follow."
+	},
+	{
+		"body":"Be patient. The best things happen unexpectedly"
+	},
+	{
+		"body":"Never regret anything that once made you smile"
+	},
+	{
+		"body":"A small act of kindness creates the greatest of joys."
+	},
+	{
+		"body":"And they keep asking me where happiness can be found, but I'm no longer trying to find happiness I just appreciate where I am and then happiness finds me.",
+		"author":"soyen"
+	},
+	{
+		"body":"Be kind to yourself!"
+	},
+	{
+		"body":"You are lovely."
+	},
+	{
+		"body":"Don't just be good to others. Be good to yourself!"
+	},
+	{
+		"body":"Smile!"
+	},
+	{
+		"body":"If it makes you happy, it doesn't have to make sense to others."
+	}
+]
