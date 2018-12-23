@@ -2,4 +2,4 @@ title: Be Happy!
 
 markdown: kramdown
 
-exclude: [vendor, "Gemfile", "Gemfile.lock", ".gitlab-ci.yml", "build"]
+exclude: [vendor, "Gemfile", "Gemfile.lock", ".gitlab-ci.yml", "build", "crowdin.yml"]
