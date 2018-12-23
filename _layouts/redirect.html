@@ -33,42 +33,16 @@
 			For more info about intellectual property visit: aurorafoss.org or
 			directly send an email to: contact (at) aurorafoss.org . -->
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="{{ site.description }}">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/css/materialize.min.css">
 
-		<title>{{ site.title }}</title>
-
-		{% seo %}
-
-		<style>
-			.footer {
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				padding: 1rem;
-			}
-		</style>
-
-		<link rel="manifest" href="site.webmanifest">
-		<link rel="apple-touch-icon" href="icon.png">
-
-		{% feed_meta %}
+		<meta http-equiv="refresh" content="0; url={{ page.redirect_url }}" />
+		<meta name="keywords" content="automatic redirection">
 	</head>
 
 	<body>
-		<p></p>
-		<div class="center footer">
-			<a href="http://www.actionforhappiness.org/" target="_blank" rel="noopener noreferrer"><img class="responsive-img" style="max-height: 50px; width: auto;" src="res/images/actionforhappiness.png"></a>
-		</div>
+		<p><a href="{{ page.redirect_url }}">Redirect</a></p>
 
-		<script src="js/main.js"></script>
-
-		<script src="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/js/materialize.min.js"></script>
+		<script language="javascript" type="text/javascript">
+			window.location.replace("{{ page.redirect_url }}");
+		</script>
 	</body>
 </html>
