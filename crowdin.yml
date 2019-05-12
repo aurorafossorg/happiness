@@ -3,3 +3,8 @@ files:
     translation: /res/values/%locale%/quotes.xml
     translate_attributes: 0
     content_segmentation: 0
+
+  - source: /res/values/challenges.xml
+    translation: /res/values/%locale%/challenges.xml
+    translate_attributes: 0
+    content_segmentation: 0
