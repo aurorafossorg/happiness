@@ -2,13 +2,15 @@
 <html class="no-js">
 	<head>
 		<!--
+			                                    __
 			                                   / _|
 			  __ _ _   _ _ __ ___  _ __ __ _  | |_ ___  ___ ___
 			 / _` | | | | '__/ _ \| '__/ _` | |  _/ _ \/ __/ __|
 			| (_| | |_| | | | (_) | | | (_| | | || (_) \__ \__ \
 			 \__,_|\__,_|_|  \___/|_|  \__,_| |_| \___/|___/___/
 
-			Copyright (C) 2018 Aurora Free Open Source Software.
+			Copyright (C) 2019 Aurora Free Open Source Software.
+			Copyright (C) 2019 Luís Ferreira.
 
 			This file is part of the Aurora Free Open Source Software. This
 			organization promote free and open source software that you can
@@ -31,49 +33,21 @@
 			may be claimed as the property of others.
 
 			For more info about intellectual property visit: aurorafoss.org or
-			directly send an email to: contact (at) aurorafoss.org . -->
+			directly send an email to: contact (at) aurorafoss.org .
+		-->
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="{{ site.description }}">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<link href="https://static.aurorafoss.org/aurorafoss/pub/web/materialicons/css/materialicons.css" rel="stylesheet">
-		<link href="res/fonts/Tahu!.css" rel="stylesheet">
 
-		<link rel="stylesheet" href="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/css/materialize.min.css">
-
-		<script src="https://static.aurorafoss.org/aurorafoss/pub/web/jquery/3.3.1/js/jquery.min.js"></script>
-
-		<title>{{ site.title }}</title>
-
-		{% seo %}
-
-		<style>
-			.footer {
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				padding: 1rem;
-			}
-		</style>
-
-		<link rel="manifest" href="site.webmanifest">
-		<link rel="apple-touch-icon" href="icon.png">
-
-		{% feed_meta %}
+		<meta http-equiv="refresh" content="0; url={{ page.redirect_url }}" />
+		<meta name="keywords" content="automatic redirection">
 	</head>
 
 	<body>
-		<p id="quote" class="center" style="font-size: 5em; font-family: 'Tahu!';"></p>
-		
-		<footer class="center">
-			<a href="http://www.actionforhappiness.org/" target="_blank" rel="noopener noreferrer"><img class="responsive-img" style="max-height: 50px; width: auto;" src="res/images/actionforhappiness.png"></a>
-		</footer>
-
-		<script src="js/main.js"></script>
-
-		<script src="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/js/materialize.min.js"></script>
+		<script language="javascript" type="text/javascript">
+			var types = [
+				'quotes',
+				'challenges'
+			];
+			window.location.replace("/" + types[Math.floor(Math.random() * types.length)] + "/");
+		</script>
 	</body>
 </html>

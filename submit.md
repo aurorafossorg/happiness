@@ -1,4 +1,4 @@
 ---
 layout: submit
-title: Submit a quote
+title: Submit a contribution
 ---
