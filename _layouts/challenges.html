@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<!--
+			                                    __
+			                                   / _|
+			  __ _ _   _ _ __ ___  _ __ __ _  | |_ ___  ___ ___
+			 / _` | | | | '__/ _ \| '__/ _` | |  _/ _ \/ __/ __|
+			| (_| | |_| | | | (_) | | | (_| | | || (_) \__ \__ \
+			 \__,_|\__,_|_|  \___/|_|  \__,_| |_| \___/|___/___/
+
+			Copyright (C) 2019 Aurora Free Open Source Software.
+			Copyright (C) 2019 Luís Ferreira.
+
+			This file is part of the Aurora Free Open Source Software. This
+			organization promote free and open source software that you can
+			redistribute and/or modify under the terms of the MIT License available in
+			the package root path as 'LICENSE' file. Please review the following
+			information to ensure that the license requirements meet the opensource
+			guidelines at opensource.org .
+
+			THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+			THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+			FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+			DEALINGS IN THE SOFTWARE.
+
+			NOTE: All products, services or anything associated to trademarks and
+			service marks used or referenced on this file are the property of their
+			respective companies/owners or its subsidiaries. Other names and brands
+			may be claimed as the property of others.
+
+			For more info about intellectual property visit: aurorafoss.org or
+			directly send an email to: contact (at) aurorafoss.org .
+		-->
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="{{ site.description }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://static.aurorafoss.org/aurorafoss/pub/web/materialicons/css/materialicons.css" rel="stylesheet">
+		<link href="/res/fonts/Tahu!.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/css/materialize.min.css">
+
+		<script src="https://static.aurorafoss.org/aurorafoss/pub/web/jquery/3.3.1/js/jquery.min.js"></script>
+
+		<title>{{ page.title }} - {{ site.title }}</title>
+
+		{% seo %}
+
+		<style>
+			.footer {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				padding: 1rem;
+			}
+
+			.challenge-box {
+				height: 250px;
+				position: relative;
+				-webkit-perspective: 800px;
+				-moz-perspective: 800px;
+				-o-perspective: 800px;
+				perspective: 800px;
+				background: none;
+			}
+
+			.challenge-card {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				-webkit-transition: -webkit-transform 0.8s;
+				-moz-transition: -moz-transform 0.8s;
+				-o-transition: -o-transform 0.8s;
+				transition: transform 0.8s;
+				-webkit-transform-style: preserve-3d;
+				-moz-transform-style: preserve-3d;
+				-o-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+			}
+
+			.challenge-content {
+				height: 100%;
+				width: 100%;
+				border-radius: 25px;
+				border: 4px solid black;
+				color: black;
+				text-align: center;
+				position: absolute;
+				-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-o-backface-visibility: hidden;
+				backface-visibility: hidden;
+			}
+
+			.challenge-card .challenge-front {
+				background: gray;
+				font-size: 6em;
+				font-weight: bold;
+				line-height: 250px;
+			}
+
+			.challenge-card .challenge-back {
+				padding: 10px;
+				background: white;
+				font-size: 2em;
+				font-family: 'Tahu!';
+				-webkit-transform: rotateY(180deg);
+				-moz-transform: rotateY(180deg);
+				-o-transform: rotateY(180deg);
+				transform: rotateY(180deg);
+			}
+
+			.challenge-card.challenge-flipped {
+				-webkit-transform: rotateY(180deg);
+				-moz-transform: rotateY(180deg);
+				-o-transform: rotateY(180deg);
+				transform: rotateY(180deg);
+			}
+
+			.challenge-hidden {
+				display: none;
+			}
+		</style>
+
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="apple-touch-icon" href="icon.png">
+
+		<script src="/js/challenges.js"></script>
+
+		{% feed_meta %}
+	</head>
+
+	<body>
+		<div class="container">
+			</br>
+
+			<div class="row">
+				<div class="col s12 m4 offset-m4">
+					<div class="challenge-box challenge-hidden" id="challenge-content">
+						<div class="challenge-card" onclick="flip()">
+							<div class="challenge-content challenge-front" id="challenge-id"></div>
+							<div class="challenge-content challenge-back valign-wrapper" id="challenge"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			</br>
+			
+			<footer class="center">
+				<a href="http://www.actionforhappiness.org/" target="_blank" rel="noopener noreferrer"><img class="responsive-img" style="max-height: 50px; width: auto;" src="/res/images/actionforhappiness.png"></a>
+			</footer>
+		</div>
+
+		<script src="https://static.aurorafoss.org/aurorafoss/pub/web/materializecss/1.0.0/js/materialize.min.js"></script>
+	</body>
+</html>
